@@ -32,10 +32,6 @@ Anything written in a *nix* file can be evaluated.
 
 You can test to evaluate pieces of code using **nix repl** command.
 
-```bash +exec
-nix repl --expr '{a = map (x: x * 2) [1 2 3]}'
-```
-
 Data Types
 ===
 
